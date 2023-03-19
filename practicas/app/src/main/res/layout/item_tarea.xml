@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cvTarea"
+    android:layout_width="350dp"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="25dp"
+    android:layout_margin="10sp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvNombreTarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Tarea"
+            android:textSize="30sp"
+            android:textColor="@color/background_app"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvDescTarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Descripción de la tarea"
+            android:textSize="20sp"
+            android:textColor="@color/background_app"
+            android:padding="15sp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

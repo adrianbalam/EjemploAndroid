@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">practicas</string>
+    <string name="btn_calcular">Calcular imc</string>
+    <string name="edad">Edad</string>
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+    <string name="mujer">Mujer</string>
+    <string name="hombre">Hombre</string>
+
+    <!--Strings para la TODOApp-->
+    <string name="titulo">TODO App</string>
+    <string name="categorias">Categorias</string>
+    <string name="mis_tareas">Mis tareas</string>
+    <string name="descripci_n_de_la_tarea">Descripción de la tarea</string>
+    <string name="titulo_de_la_tarea">Titulo de la tarea</string>
+    <string name="a_adir_tarea">Añadir tarea</string>
+    <string name="anadir_tarea">Añadir tarea</string>
+
+</resources>

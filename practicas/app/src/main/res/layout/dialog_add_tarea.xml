@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llDialog"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anadir_tarea"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etTituloTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/descripci_n_de_la_tarea"
+        android:maxLines="1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etDescTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/descripci_n_de_la_tarea"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddTarea2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a_adir_tarea"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:textAllCaps="true"/>
+
+
+</LinearLayout>
